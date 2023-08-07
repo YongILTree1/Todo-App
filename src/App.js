@@ -7,16 +7,19 @@ import List from "./component/List";
 import Footer from "./component/Footer";
 import Create from "./component/Create";
 import DiaryButton from "./component/DiaryButton";
+import { useState } from "react";
 
 function App() {
+  const [data, setData] = useState("");
+
   return (
     <BrowserRouter>
       <div className="App">
         <Header />
         <Date />
         <div className="container">
-          <List />
-          <Create />
+          <List data={data} />
+          <Create setData={setData} />
           <DiaryButton />
         </div>
         <Footer />
