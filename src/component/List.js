@@ -8,7 +8,7 @@ const List = () => {
           <input type="checkbox" />
         </div>
         <div className="title-container">
-        <b>TO-DO LIST</b>
+          <b>TO-DO LIST</b>
         </div>
         <div className="editor-container">
           <button>수정</button>
