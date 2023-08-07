@@ -1,0 +1,68 @@
+/* Header 컴포넌트 */
+.header {
+    border: 1px gray solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 500px;
+    height: 60px;
+    background-color: rgba(151, 147, 147, 1);
+    text-align: center;
+}
+
+.header img {
+    width: 43px;
+    height: 43px;
+}
+
+/* Date 컴포넌트 */
+.date {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.date img {
+    width: 43px;
+    height: 43px;
+}
+
+.date h2 {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(151, 147, 147, 1);
+    color: white;
+}
+
+/* List 컴포넌트 */
+.list {
+    border: 1px green solid;
+
+}
+
+.item-container {
+ display: flex;   
+ align-items: center;
+ justify-content: center;
+}
+
+.title-container {
+  width: 500px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
