@@ -1,68 +1,194 @@
 /* Header 컴포넌트 */
 .header {
-    border: 1px gray solid;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 98.7%;
+  height: 70px;
 }
 
 .header h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 500px;
-    height: 60px;
-    background-color: rgba(151, 147, 147, 1);
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 600px;
+  height: 60px;
+  background-color: gray;
+  text-align: center;
 }
 
 .header img {
-    width: 43px;
-    height: 43px;
+  width: 43px;
+  height: 43px;
 }
 
 /* Date 컴포넌트 */
 .date {
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 98.7%;
+  height: 70px;
 }
 
 .date img {
-    width: 43px;
-    height: 43px;
+  width: 43px;
+  height: 43px;
 }
 
 .date h2 {
-    width: 500px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(151, 147, 147, 1);
-    color: white;
-}
-
-/* List 컴포넌트 */
-.list {
-    border: 1px green solid;
-
-}
-
-.item-container {
- display: flex;   
- align-items: center;
- justify-content: center;
-}
-
-.title-container {
-  width: 500px;
+  width: 600px;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: gray;
+  color: white;
+}
+
+/* List 컴포넌트 */
+.list {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  height: 400px;
+}
+
+/* Itme 컴포넌트 */
+.list-container {
+  width: 800px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  border: 4px solid wheat;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 4px solid rgb(255, 255, 255);
+  width: 800px;
+  height: 70px;
+}
+
+.checkbox-continer {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(214, 214, 214);
+}
+
+.checkbox-continer input {
+  width: 30px;
+  height: 30px;
+}
+
+.todo-container {
+  width: 550px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 214, 214);
+}
+
+.editor-container {
+  width: 120px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(214, 214, 214);
+}
+
+.editor-container button {
+  margin: 2.5px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Create 컴포넌트 */
+.create {
+  margin-top: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.create-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 70px;
+}
+
+.create-container input {
+  width: 500px;
+  height: 54px;
+  margin-right: 20px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.add-button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    width: 59px;
+    height: 59px;
+    background-color: white;
+}
+.add-button-box img {
+    width: 43px;
+    height: 43px;
+}
+
+/* Diary 컴포넌트 */
+.diary-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin-top: 5px;
+    height: 60px;
+}
+
+.diary-button b{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer 컴포넌트 */
+.footer {
+  margin-top: 20px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer b {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(192, 192, 192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer b{
+    font-size: 30px;
 }
