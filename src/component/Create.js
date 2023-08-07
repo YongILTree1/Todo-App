@@ -1,7 +1,7 @@
-import "./component.css"
+import "./component.css";
 
 const Create = () => {
-    return 
-}
+  return;
+};
 
-export default Create
+export default Create;
